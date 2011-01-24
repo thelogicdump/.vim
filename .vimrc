@@ -77,5 +77,5 @@ au CursorMovedI,InsertLeave * if pumvisible() == 0|silent! pclose|endif
 set completeopt=menuone,menu,longest,preview
 
 " Custom Mappings
-command SyncBuild execute "!./syncBuild.sh"
-map <F4> :SyncBuild<CR>
+"command SyncBuild execute "!./syncBuild.sh"
+"map <F4> :SyncBuild<CR>
