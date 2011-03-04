@@ -79,3 +79,8 @@ set completeopt=menuone,menu,longest,preview
 " Custom Mappings
 "command SyncBuild execute "!./syncBuild.sh"
 "map <F4> :SyncBuild<CR>
+
+" NERDTree
+let NERDTreeIgnore=['\.pyc$', '\.o$']
+let NERDTreeShowHidden=1
+map <Leader>n :NERDTreeToggle<CR>
