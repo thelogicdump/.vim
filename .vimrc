@@ -1,11 +1,23 @@
+set nocompatible
 filetype off
 call pathogen#runtime_append_all_bundles()
+
+set rtp+=~/.vim/vundle.git/
+call vundle#rc()
+
+" My Bundles
+" Original Github Repo's
+Bundle 'scrooloose/nerdcommenter'
+Bundle 'scrooloose/nerdtree'
+Bundle 'msanders/snipmate.vim'
+Bundle 'tpope/vim-surround'
+Bundle 'tpope/vim-fugitive'
+" Non Github Repo
+Bundle 'git://git.wincent.com/command-t.git'
+
 filetype on
 filetype plugin on
 filetype indent on
-
-
-set nocompatible
 
 " Hides bufers when opening new files. Means you don't need to save before
 " opening the new one.
