@@ -38,6 +38,9 @@ set tabstop=8
 set expandtab
 set smarttab
 
+"Always show the status line
+set laststatus=2
+
 set number "Show line numbers at the beginning of a line
 
 
