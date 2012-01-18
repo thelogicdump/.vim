@@ -19,6 +19,9 @@ filetype on
 filetype plugin on
 filetype indent on
 
+"Use UTF8 encodings
+set encoding=utf-8
+
 " Hides bufers when opening new files. Means you don't need to save before
 " opening the new one.
 set hidden
